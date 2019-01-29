@@ -1,0 +1,113 @@
+/* body CSS */
+body{
+  font-family: sans-serif, Helvetica;
+}
+
+/*header css */
+header{
+	background-color: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 100px;
+  border-bottom: #e8491d 3px solid;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #branding{
+	float:left;
+  padding-bottom: 30px;
+}
+header #branding h1{
+	margin: 0;
+  margin-left: 10px;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+/* footer CSS */
+footer{
+  text-align: center;
+  padding:20px;
+  background-color: #e8491d;
+  color: white;
+  float: left;
+  width: 100%
+
+}
+/* other tags CSS*/
+ul{
+  list-style-type: none;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+h2{
+  text-align: center;
+}
+hr{
+  border-width: 4px;
+}
+/* aligns newsletter to center*/
+.form{
+  text-align: center;
+}
+.box2{
+    width:100%;
+    margin-bottom: 5px;
+}
+
+#boxes .box{
+	float: left;
+	width: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+	padding: 10px 10px 10px 10px;
+	text-align: justify;
+  background-color: #35424a;
+  color: #ffffff;
+}
+
+.box img{
+  width: 250px;
+}
+#img{
+  width:600px;
+}
+.heading_bar{
+  background-color: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: #e8491d 3px solid;
+}
+
+.box{
+    display: inline-block;
+    width: 30%;
+    min-height: 35px;
+    margin: 10px;
+    padding: 10px;
+}
+.services, .container{
+  background-color:  #e6fff3;
+}
+#submit{
+  font-weight:450;
+  text-transform: uppercase;
+  background-color: #e8491d;
+  border-radius: 10px;
+  color: #35424a;
+}
+.test{
+  text-align: center;
+}
+#slider{
+  height: auto;
+  width: 70%;
+}
